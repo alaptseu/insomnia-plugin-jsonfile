@@ -1,0 +1,28 @@
+{
+  "name": "insomnia-plugin-jsonfile",
+  "version": "1.0.0",
+  "description": "Insomnia json file template tag which changes content of json file if keywords match with environment variables",
+  "main": "index.js",
+  "author": "Alex Laptseu",
+  "license": "MIT",
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "plugins",
+    "file",
+    "json"
+  ],
+  "dependencies": {
+    "file-system": "^2.2.2"
+  },
+  "scripts": {
+    "test": "jest --silent"
+  },
+  "bugs": {
+    "url": "https://github.com/alaptseu/insomnia-plugin-jsonfile/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaptseu/insomnia-plugin-jsonfile.git"
+  }
+}
