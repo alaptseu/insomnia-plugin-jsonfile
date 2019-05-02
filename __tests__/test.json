@@ -1,3 +1,4 @@
 {
-  "version": "<VERSION_NUMBER>"
+  "version": "<VERSION_NUMBER>",
+  "name": "<NAME>"
 }

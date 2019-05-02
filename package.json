@@ -30,5 +30,8 @@
     "type": "git",
     "url": "git+https://github.com/alaptseu/insomnia-plugin-jsonfile.git"
   },
-  "homepage": "https://github.com/alaptseu/insomnia-plugin-jsonfile#readme"
+  "homepage": "https://github.com/alaptseu/insomnia-plugin-jsonfile#readme",
+  "devDependencies": {
+    "jest-cli": "^24.7.1"
+  }
 }
