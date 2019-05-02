@@ -21,8 +21,9 @@ Json file content editing is done using [edit-json-file](https://www.npmjs.com/p
  
  ### To install plugin manually
   1) Checkout this repository;
-  2) Copy source code to insomnia plugins directory(see paths below);
-  3) Create environment variables(see structure above) with your values; 
+  2) run `npm i` 
+  3) Copy source code to insomnia plugins directory(see paths below);
+  4) Create environment variables(see structure above) with your values; 
   
   - _**MacOS**_: ~/Library/Application\ Support/Insomnia/plugins/
   
