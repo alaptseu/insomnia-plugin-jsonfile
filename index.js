@@ -18,16 +18,16 @@ module.exports.templateTags = [
                 defaultValue: false,
             }
         ],
-        run(ctx, path, toSave) {
-            console.log(`File is: ${path}`);
-            if (!path) {
+        run(ctx, filePath, toSave) {
+            console.log(`File is: ${filePath}`);
+            if (!filePath) {
                 throw new Error('No JSON file selected');
             }
             const json_values = ctx.context.json_property;
             if (!json_values) {
-                return  fs.readFileSync(path, 'utf8');
+                return  fs.readFileSync(filePath, 'utf8');
             }
-            let file_content = editJsonFile(path);
+            let file_content = editJsonFile(filePath);
             console.log(`File content before setting up values:`);
             console.log(file_content.get());
             for (const key of Object.keys(json_values)) {
